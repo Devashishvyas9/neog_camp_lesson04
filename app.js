@@ -1,6 +1,8 @@
-//input
-var username = prompt("Give me username")
-    //processing
-var welcomeMessage = "this  script works!!!" + username;
-//output
-alert(welcomeMessage);
+var btnTranslate = document.querySelector("#btn-translate");
+var txtinput = document.querySelector("#txt-input");
+
+console.log(txtinput)
+btnTranslate.addEventListener("click", function clickEventHandler() {
+    console.log("tap")
+
+})
